@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+#wrapper {
+    margin: 2.5% auto;
+    background-color: pink;
+    width: 960px;
+    height: 95%;
+    box-sizing: border-box;
+}
+
+#subwrapper {
+    position: relative;
+    font-family: 'Chango';
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 42px;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    font-size: 6.5em;
+    font-weight: bold;
+    color: black;
+    padding-top: 2.5%;
+    text-align: center;
+    font-family: 'Bangers';
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#start {
+    margin-top: 10%;
+    border: 2px solid limegreen;
+    background: hotpink;
+    font-family: 'Chango';
+}
+
+button:hover {
+    border: 2px solid limegreen;
+    background: hotpink;
+}
