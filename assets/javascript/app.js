@@ -100,7 +100,7 @@ var game = {
         panel.append('<img src="' + questions[this.currentQuestion].image + '"/>');
 
         if (game.currentQuestion === questions.length - 1) {
-            setTiemout(game.results, 3 * 1000);
+            setTimeout(game.results, 3 * 1000);
         } else {
             setTimeout(game.nextQuestion, 3 * 1000);
         }
